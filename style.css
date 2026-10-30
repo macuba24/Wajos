@@ -1,8 +1,8 @@
 :root {
-  --paper: #111111;
-  --ink: #f4f0e6;
+  --paper: #3b2a1e;
+  --ink: #f4efe6;
   --muted: #d9d2c5;
-  --line: #f4f0e6;
+  --line: #f4efe6;
   --cream: #f4f0e6;
   --accent: #141414;
   --black: #111111;
@@ -18,7 +18,7 @@ html {
 
 body {
   margin: 0;
-  background: var(--black);
+  background: #3b2a1e;
   color: var(--ink);
   font-family: "Segoe UI", "Helvetica Neue", sans-serif;
   line-height: 1.45;
@@ -37,27 +37,27 @@ main {
 }
 
 body[data-stufe="1"] {
-  --paper: #1c1c1c;
-  --ink: #f4f0e6;
+  --paper: #3b2a1e;
+  --ink: #f4efe6;
   --muted: #d9d2c5;
-  --line: #f4f0e6;
-  background: #1c1c1c;
+  --line: #f4efe6;
+  background: #3b2a1e;
 }
 
 body[data-stufe="2"] {
-  --paper: #161616;
-  --ink: #f4f0e6;
+  --paper: #3b2a1e;
+  --ink: #f4efe6;
   --muted: #d9d2c5;
-  --line: #f4f0e6;
-  background: #161616;
+  --line: #f4efe6;
+  background: #3b2a1e;
 }
 
 body[data-stufe="3"] {
-  --paper: #0c0c0c;
-  --ink: #f7f3ea;
+  --paper: #3b2a1e;
+  --ink: #f4efe6;
   --muted: #ddd4c6;
-  --line: #f7f3ea;
-  background: #0c0c0c;
+  --line: #f4efe6;
+  background: #3b2a1e;
 }
 
 body[data-stufe="2"],
@@ -173,7 +173,7 @@ label { display: block; margin-top: 0.45rem; font-weight: 650; }
 .logo-band {
   display: block;
   width: 100%;
-  background: #f4f0e6;
+  background: transparent;
 }
 
 .wordmark {
@@ -183,7 +183,7 @@ label { display: block; margin-top: 0.45rem; font-weight: 650; }
   font-weight: 650;
   letter-spacing: 0.14em;
   line-height: 1.05;
-  color: #141414;
+  color: #f4efe6;
 }
 
 button.logo-button {
@@ -193,12 +193,12 @@ button.logo-button {
   padding: 0;
   border: 0;
   border-radius: 0;
-  overflow: hidden;
-  background: #f4f0e6;
+  overflow: visible;
+  background: transparent;
   line-height: 0;
 }
 
-button.logo-button:hover { background: #f4f0e6; }
+button.logo-button:hover { background: transparent; }
 
 .logo {
   display: block;
@@ -469,7 +469,7 @@ input.scan-input {
   }
   button[aria-pressed="false"]:hover,
   button.quiet:hover { background: #2a2a2a; }
-  button.logo-button:hover { background: #f4f0e6; }
+  button.logo-button:hover { background: transparent; }
 }
 
 @media (max-width: 359px) {
